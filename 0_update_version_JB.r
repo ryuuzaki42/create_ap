@@ -33,6 +33,7 @@
 
         cd create_ap-$version-noarch-1_JB/
         makepkg -l y -c y ../create_ap-$version-noarch-1_JB.txz
+        md5sum ../create_ap-$version-noarch-1_JB.txz ../create_ap-$version-noarch-1_JB.txz.md5
 
         cd ../
         rm -r create_ap-$version-noarch-1_JB/
