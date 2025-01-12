@@ -1,21 +1,5 @@
 ## Update version
 
-#     ## Extract old package and update:
-#         README.md, create_ap, create_ap.conf, bash_completion
-#
-#         https://github.com/lakinduakash/linux-wifi-hotspot/commits/master/src/scripts/create_ap
-#
-#         https://github.com/lakinduakash/linux-wifi-hotspot/blob/master/src/scripts/README.md
-#         https://github.com/lakinduakash/linux-wifi-hotspot/blob/master/src/scripts/create_ap
-#         https://github.com/lakinduakash/linux-wifi-hotspot/blob/master/src/scripts/create_ap.conf
-#         https://github.com/lakinduakash/linux-wifi-hotspot/blob/master/src/scripts/bash_completion
-
-#     ## Download files
-#         wget https://raw.githubusercontent.com/lakinduakash/linux-wifi-hotspot/master/src/scripts/create_ap
-#         wget https://raw.githubusercontent.com/lakinduakash/linux-wifi-hotspot/master/src/scripts/create_ap.conf
-#         wget https://raw.githubusercontent.com/lakinduakash/linux-wifi-hotspot/master/src/scripts/bash_completion
-#         wget https://raw.githubusercontent.com/lakinduakash/linux-wifi-hotspot/master/src/scripts/README.md
-
     ## Clone my mirror and update files
         git clone https://github.com/ryuuzaki42/create_ap
         cd create_ap/
