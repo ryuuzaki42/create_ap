@@ -15,8 +15,8 @@
         cp ../README.md usr/share/doc/create_ap/README.md
 
         smartsynchronize ../create_ap usr/bin/create_ap
-        chmod +x ../create_ap
         cp ../create_ap usr/bin/
+        chmod +x ../create_ap
 
         smartsynchronize ../create_ap.conf etc/create_ap.conf
         cp ../create_ap.conf etc/create_ap.conf
@@ -28,12 +28,13 @@
         cd ../
         su
 
-        version="0.4.9_git_84af02f"
+        version="0.4.9_git_1234567" # Git SHA hash
         mv create_ap-*-noarch-1_JB/ create_ap-$version-noarch-1_JB/
 
         cd create_ap-$version-noarch-1_JB/
         makepkg -l y -c y ../create_ap-$version-noarch-1_JB.txz
-        md5sum ../create_ap-$version-noarch-1_JB.txz ../create_ap-$version-noarch-1_JB.txz.md5
 
         cd ../
+        md5sum create_ap-$version-noarch-1_JB.txz > create_ap-$version-noarch-1_JB.txz.md5
+
         rm -r create_ap-$version-noarch-1_JB/
